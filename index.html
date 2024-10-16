@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mon CV</title>
+  <title>Mon CV - Interface Linux avec Barre de Tâche</title>
+  <!-- Lien vers le CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     /* Styles de la page */
     body {
@@ -14,12 +16,10 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      background-color: #000; /* Fond noir */
-      background-size: cover;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/6/6a/Ubuntu_19.10_Eoan_Ermine.png') no-repeat top left; /* Image d'arrière-plan */
+      background-size: 150%; /* Ajuster l'image pour couvrir tout l'arrière-plan */
     }
     .container {
-      width: 80%;
-      max-width: 800px;
       background-color: rgba(45, 45, 45, 0.9); /* Fond semi-transparent */
       padding: 20px;
       margin: 60px 0;
@@ -138,12 +138,12 @@
     <h2>Présentation Personnelle</h2>
     <header>
       <h1>Nom Prénom</h1>
-      <p>Email: exemple@email.com | Téléphone: 01 01 01 00 00 | Ville, Pays</p>
+      <p>Email: exemple@email.com | Téléphone: 01 23 45 67 89 | Ville, Pays</p>
     </header>
 
     <section class="profile" id="profile">
       <h2 class="section-title">Profil</h2>
-      <p></p>
+      <p>Développeur web passionné par l'open source et les technologies Linux, avec plus de 5 ans d'expérience dans le développement de sites et applications web.</p>
     </section>
 
     <section class="experience" id="experience">
@@ -209,5 +209,9 @@
       dropdown.classList.toggle('active');
     }
   </script>
+  <!-- Lien vers le JavaScript de Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
